@@ -1,0 +1,11 @@
+model_name: svi_raw
+model_type: parametric_smile
+implementation_kind: R
+entrypoint: /Users/rameshkadambi/dev/vol_surface_study/r/run_svi_raw_entrypoint.R
+description: Raw SVI slice-by-slice calibration using L-BFGS-B
+default_config:
+  strike_scale: 1000
+  min_bid: 0.05
+  min_points: 8
+  max_abs_k: 1.5
+  use_spot_fallback: true

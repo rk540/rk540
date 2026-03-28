@@ -1,0 +1,52 @@
+name: volstudy
+channels:
+  - conda-forge
+dependencies:
+  # -------------------
+  # Python
+  # -------------------
+  - python=3.11
+  - pip
+
+  # Core libs
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+
+  # DB
+  - sqlalchemy
+  - sqlite
+
+  # CLI / utils
+  - click
+  - pyyaml
+  - tqdm
+
+  # GUI
+  - streamlit
+
+  # Dev
+  - ipython
+  - jupyterlab
+
+  # -------------------
+  # R (CRITICAL)
+  # -------------------
+  - r-base=4.3
+
+  # R packages via conda
+  - r-dplyr
+  - r-data.table
+  - r-ggplot2
+  - r-jsonlite
+  - r-optparse
+  - r-dbi
+  - r-rpostgres
+
+  # Proto buf
+  - protobuf=3.20.3
+
+  # Altair
+  - altair=4.2.2
